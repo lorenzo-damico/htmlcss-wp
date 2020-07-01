@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-  width: 70%;
+  width: 1000px;
   margin: auto;
 }
 
@@ -24,7 +24,7 @@ header {
   background-image: url(../img/natural-default-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  border: 8px solid #FFFFFF;
+  border: 10px solid #FFFFFF;
   height: 300px;
 }
 
@@ -42,8 +42,8 @@ header {
   border: 5px solid #FFFFFF;
   margin-bottom: 50px;
   display: inline-block;
-  padding: 5px;
-  font-size: 50px;
+  padding: 5px 10px;
+  font-size: 60px;
 }
 
 main {
