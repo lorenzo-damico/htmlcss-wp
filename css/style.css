@@ -74,7 +74,7 @@ header {
 }
 
 main {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 main::after {
@@ -108,6 +108,7 @@ main::after {
   margin-top: 10px;
   font-size: 22px;
   line-height: 30px;
+  color: #342100;
 }
 
 .col-left-element {
@@ -117,15 +118,30 @@ main::after {
 }
 
 .colonna-centrale {
-  background-color: #730671;
-  width: calc(45% - 2%);
-  height: calc(70vh - 10px);
+  background-color: #FFFFFF;
+  width: 500px;
+  border-radius: 5px;
   float: left;
-  margin: 0 1%;
+  margin: 0 50px;
+}
+
+.colonna-centrale h3 {
+  color: #342100;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-shadow: 3px 2px 1px rgba(0,0,0,0.2);
+  margin: 25px;
+}
+
+.colonna-centrale p {
+  margin: 25px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .colonna-destra {
-  width: 25%;
+  width: 200px;
   float: left;
 }
 
