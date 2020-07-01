@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-  width: 1000px;
+  width: 70%;
   margin: auto;
 }
 
@@ -85,7 +85,7 @@ main::after {
 
 .colonna-sinistra {
   background-color: #FFFFFF;
-  width: 200px;
+  width: 20%;
   float: left;
   border-radius: 5px;
 }
@@ -104,7 +104,7 @@ main::after {
 
 .col-left-title h3 {
   float: left;
-  width: 100px;
+  width: 50%;
   margin-top: 10px;
   font-size: 22px;
   line-height: 30px;
@@ -119,10 +119,10 @@ main::after {
 
 .colonna-centrale {
   background-color: #FFFFFF;
-  width: 500px;
+  width: 50%;
   border-radius: 5px;
   float: left;
-  margin: 0 50px;
+  margin: 0 5%;
 }
 
 .colonna-centrale h3 {
@@ -141,7 +141,7 @@ main::after {
 }
 
 .colonna-destra {
-  width: 200px;
+  width: 20%;
   float: left;
 }
 
@@ -203,5 +203,5 @@ footer {
 }
 
 .social a {
-  color: #000000;
+  color: rgba(0,0,0,0.5);
 }
