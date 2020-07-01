@@ -164,7 +164,44 @@ main::after {
 }
 
 footer {
-  background-color: #A4D2E1;
-  height: calc(10vh - 15px);
+  background-color: #FFFFFF;
   margin-bottom: 15px;
+}
+
+.credits {
+  text-align: center;
+  color: lightgrey;
+  font-style: italic;
+}
+
+.social::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social div {
+  float: left;
+  width: 33%;
+  height: 100px;
+  position: relative;
+}
+.social i {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.facebook {
+  margin-left: 0.5%;
+
+}
+
+.github {
+  margin-right: 0.5%;
+}
+
+.social a {
+  color: #000000;
 }
