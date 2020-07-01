@@ -15,7 +15,6 @@ body {
 }
 
 header {
-  background-color: #FFFF3B;
   margin-top: 15px;
 }
 
@@ -32,7 +31,7 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -40,10 +39,37 @@ header {
 
 .center-logo h1 {
   border: 5px solid #FFFFFF;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   display: inline-block;
   padding: 5px 10px;
   font-size: 60px;
+}
+
+.main-menu {
+  background-color: #666666;
+  height: 50px;
+}
+
+.list {
+  list-style: none;
+  text-align: center;
+}
+
+.list li {
+  display: inline-block;
+  padding: 0  5px;
+}
+
+.list li:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.list a {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px;
 }
 
 main {
